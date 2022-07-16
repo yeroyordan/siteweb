@@ -1,0 +1,102 @@
+body    
+{
+	background-image: url(pict1.jpg);
+		
+	background-repeat: no-repeat;
+
+}
+
+.rgb     /* pr une colorqtion chocolate pour mes tableaux de la page3*/
+{
+	background-color: rgb(255,160,70);
+}
+#bordure  /*pr arrondir mes images de la page3*/
+{
+	border-radius: 1000px
+}
+
+nav                /*disposition du menu navigation en ligne a droite*/
+{
+	display:inline-block;
+	width:900px;
+	text-align:right;
+}
+                   /*dispo des points et l'ecart entre elements du menu*/
+nav li                        
+{
+	display: inline-block;
+	margin-right:20px;
+}
+
+ul li a
+{
+	text-decoration: none;
+	color:#000;
+	font-family: Arial;
+	font-weight: bold;
+	font-size: 1.5em;
+	transition: 0.4s ease-in-out;
+}
+
+ul li a:hover
+{
+	color:#ff7200;
+}
+
+header
+{
+	background:url(image/fond2.png) repeat-x bottom;
+	
+}
+
+body footer
+{
+	margin-top: 40px;
+	border-top:5px solid #ff7200;
+	background-color: black;
+	color: white;
+    padding: 30px 100px;
+}
+
+footer h1
+{
+	font-family: 'Times New Roman' ;
+	border-bottom: 1px solid white;
+	width: 15%;
+	padding-bottom: 5px;
+}
+
+
+footer .Services
+{
+     margin-top: 10px;
+     display:flex;
+     flex-wrap: wrap;
+}
+
+footer .Services .Service
+{
+	margin-right: 30px;
+	padding: 10px;
+}
+
+footer .Services .Service p
+{
+	max-width: 300px;
+}
+
+footer #contact
+{
+	color:white;
+}
+
+section h1
+{
+	color:#ff7200;
+}
+
+footer h3
+{
+	color:#ff7200;
+
+} 

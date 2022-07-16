@@ -1,0 +1,94 @@
+header
+{
+	background:url(image/fond2.png) repeat-x bottom;
+	
+}
+nav                /*disposition du menu navigation en ligne a droite*/
+{
+	display:inline-block;
+	width:900px;
+	text-align:right;
+}
+                   /*dispo des points et l'ecart entre elements du menu*/
+nav li                        
+{
+	display: inline-block;
+	margin-right:20px;
+}
+nav a
+{
+	font-size:1.3em;
+	
+}
+
+ul li a
+{
+	text-decoration: none;
+	color:#000;
+	font-family: Arial;
+	font-weight: bold;
+	transition: 0.4s ease-in-out;
+}
+
+ul li a:hover
+{
+	color:#ff7200;
+}
+
+
+
+
+body footer
+{
+	margin-top: 40px;
+	border-top:5px solid #ff7200;
+	background-color: black;
+	color: white;
+    padding: 30px 100px;
+}
+footer h1
+{
+	font-family: 'Times New Roman' ;
+	border-bottom: 1px solid white;
+	width: 15%;
+	padding-bottom: 5px;
+}
+
+
+footer .Services
+{
+     margin-top: 10px;
+     display:flex;
+     flex-wrap: wrap;
+}
+
+footer .Services .Service
+{
+	margin-right: 30px;
+	padding: 10px;
+}
+
+footer #contact
+{
+	color:white;
+}
+
+section h1
+{
+	color:#ff7200;
+}
+
+footer h3
+{
+	color:#ff7200;
+}
+
+ .bodi2
+ {
+ 	
+	background:linear-gradient(to top,rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%),url('pict1.jpg');
+    background-position: center;
+    background-size: cover;
+    
+ }
+
